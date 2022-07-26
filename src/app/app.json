@@ -1,0 +1,27 @@
+{
+  "name": "App",
+  "description": "",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "crm.objects.deals.read",
+    "crm.objects.deals.write",
+    "crm.objects.companies.read",
+    "crm.objects.companies.write",
+    "crm.objects.custom.read",
+    "crm.objects.custom.write",
+    "tickets"
+
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "./crm-card.json",
+          "version": 2
+        }
+      ]
+    }
+  }
+}

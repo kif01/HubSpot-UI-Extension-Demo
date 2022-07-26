@@ -1,0 +1,23 @@
+{
+  "type": "crm-card",
+  "version": 2,
+  "data": {
+    "title": "Demo Custom UI CRM Extension",
+    "fetch": {
+      "targetFunction": "crm-card",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": ["hs_object_id"],
+          "actions":[]
+        }
+      ]
+    },
+    "display": {
+      "properties": []
+    },
+    "actions": {
+      "baseUrls": []
+    }
+  }
+}
