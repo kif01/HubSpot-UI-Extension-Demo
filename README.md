@@ -12,11 +12,11 @@ Help sales rep to easily get access to additional data insights about deals on a
 
 ## 1. Prerequisite - Setup Local Environment
 
-**1.1.** Install Node.js which enables HubSpot’s local development tools </br></br>
-**1.2.** Install any code editor like Visual Studio </br></br>
-**1.3.** Install the HubSpot CLI by running `npm install -g @hubspot/cli@next` in the terminal </br></br>
-**1.4.** In the terminal navigate to the directory where you'll be working </br></br>
-**1.5.** Run the command `hs init` </br></br>
+**1.1.** Install Node.js which enables HubSpot’s local development tools. </br></br>
+**1.2.** Install any code editor like Visual Studio. </br></br>
+**1.3.** Install the HubSpot CLI by running `npm install -g @hubspot/cli@next` in the terminal. </br></br>
+**1.4.** In the terminal navigate to the directory where you'll be working. </br></br>
+**1.5.** Run the command `hs init`. </br></br>
 **1.6.** Press **Enter** to open the personal access key page in your browser. </br></br>
 
 <img width="563" alt="Screenshot 2022-07-28 at 10 14 03" src="https://user-images.githubusercontent.com/15332386/181572390-12deaa7e-0885-4597-a2df-b072203f2b7b.png">
@@ -37,16 +37,16 @@ Help sales rep to easily get access to additional data insights about deals on a
 
   
 ## 2) Create and Upload a Local Project
-**2.1.** Make sure you are in the environment in which you ran the `hs init command` during the previous phase </br></br>
+**2.1.** Make sure you are in the environment in which you ran the `hs init command` during the previous phase. </br></br>
 **2.2.** Create a folder like "MyProjects" and navigate to it in the terminal. </br></br>
-**2.3.** In the terminal run `hs project create` </br></br>
-**2.4.** Enter a **name** for the project, then press **Enter** </br></br>
-**2.5.** Set the location for the project: Leave it as it, the default one so just press **Enter** </br></br>
+**2.3.** In the terminal run `hs project create`. </br></br>
+**2.4.** Enter a **name** for the project, then press **Enter**. </br></br>
+**2.5.** Set the location for the project: Leave it as it, the default one so just press **Enter**. </br></br>
 **2.6.** Select whether to start the project from scratch or from the Getting Started template. </br></br>
 
 <img width="742" alt="Screenshot 2022-07-28 at 11 08 42" src="https://user-images.githubusercontent.com/15332386/181574115-96e9152b-1d6a-4d23-870f-fa0e5a5ff793.png">
 
-**2.7.** In the terminal, run `hs project upload` </br></br>
+**2.7.** In the terminal, run `hs project upload`. </br></br>
 
 <img width="815" alt="Screenshot 2022-07-28 at 11 10 45" src="https://user-images.githubusercontent.com/15332386/181574425-b906cf25-ce82-4bb5-9fd1-3de098b073b1.png">
 
@@ -60,7 +60,7 @@ Help sales rep to easily get access to additional data insights about deals on a
 
 ## 3) Convert CRM card to Custom Tab Card
 ### Update Card Configuration
-**3.1.** Go to **app.json** file and include `"version":2`
+**3.1.** Go to **app.json** file and include `"version":2`.
 ```javascript
 "extensions": {
     "crm": {
@@ -102,6 +102,7 @@ Help sales rep to easily get access to additional data insights about deals on a
   }
 }
 ```
+### Update CRM Card Function
 **3.3.**  Go to **crm-card.js** and replace the code with the followng:
 ```javascript
 // crm-card.js
