@@ -18,7 +18,9 @@ Help sales rep to easily get access to additional data insights about deals on a
 - In the terminal navigate to the directory where you'll be working
 - Run the command `hs init`
 - Press **Enter** to open the personal access key page in your browser.
+
 <img width="563" alt="Screenshot 2022-07-28 at 10 14 03" src="https://user-images.githubusercontent.com/15332386/181572390-12deaa7e-0885-4597-a2df-b072203f2b7b.png">
+
 - Select the **account** that you want to deploy to, then click **Continue** with this account. You’ll then be redirected to the personal access key page of the account.
 - Make sure to select the **sandbox** option
 <img width="1438" alt="Screenshot 2022-07-28 at 10 30 16" src="https://user-images.githubusercontent.com/15332386/181570839-888a1d61-6b20-4dc9-9985-d23fa55714a4.png">
