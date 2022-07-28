@@ -13,7 +13,7 @@ Help sales rep to easily get access to additional data insights about deals on a
 ## 1. Prerequisite - Setup Local Environment
 
 **1.1.** Install Node.js which enables HubSpot’s local development tools. </br></br>
-**1.2.** Install any code editor like Visual Studio. </br></br>
+**1.2.** Install any code editor like [Visual Studio](https://visualstudio.microsoft.com/vs/mac/). </br></br>
 **1.3.** Install the HubSpot CLI by running `npm install -g @hubspot/cli@next` in the terminal. </br></br>
 **1.4.** In the terminal navigate to the directory where you'll be working. </br></br>
 **1.5.** Run the command `hs init`. </br></br>
@@ -26,12 +26,12 @@ Help sales rep to easily get access to additional data insights about deals on a
 
 <img width="1438" alt="Screenshot 2022-07-28 at 10 30 16" src="https://user-images.githubusercontent.com/15332386/181570839-888a1d61-6b20-4dc9-9985-d23fa55714a4.png">
 
-**1.9.** Click **Show** to reveal your key. Then click Copy to copy it to your clipboard. </br></br>
+**1.9.** Click **Show** to reveal your key. Then click **Copy** to copy it to your clipboard. </br></br>
 
 <img width="1440" alt="Screenshot 2022-07-28 at 10 42 46" src="https://user-images.githubusercontent.com/15332386/181571676-f1a5093b-9c18-4f51-8728-8da02f3cf44b.png">
 
 **1.10.** Paste the copied key into terminal, then press **Enter**. </br></br>
-**1.11.** Enter a unique name for the account, which is only used when running CLI commands. Then, press Enter. </br></br>
+**1.11.** Enter a unique name for the account, which is only used when running CLI commands. Then, press **Enter**. </br></br>
 
 <img width="1435" alt="Screenshot 2022-07-28 at 10 44 30" src="https://user-images.githubusercontent.com/15332386/181572787-e4b0da50-7757-4b6b-bc4f-2df31472b8ef.png">
 
@@ -42,7 +42,7 @@ Help sales rep to easily get access to additional data insights about deals on a
 **2.3.** In the terminal run `hs project create`. </br></br>
 **2.4.** Enter a **name** for the project, then press **Enter**. </br></br>
 **2.5.** Set the location for the project: Leave it as it, the default one so just press **Enter**. </br></br>
-**2.6.** Select whether to start the project from scratch or from the Getting Started template. </br></br>
+**2.6.** Select whether to start the project from scratch or from the **Getting Started** template. </br></br>
 
 <img width="742" alt="Screenshot 2022-07-28 at 11 08 42" src="https://user-images.githubusercontent.com/15332386/181574115-96e9152b-1d6a-4d23-870f-fa0e5a5ff793.png">
 
@@ -54,7 +54,7 @@ Help sales rep to easily get access to additional data insights about deals on a
 
 <img width="1440" alt="Screenshot 2022-07-28 at 11 11 29" src="https://user-images.githubusercontent.com/15332386/181574748-88be0fc0-05ec-4872-9e02-f9b8b7f3fdbf.png">
 
-**2.9.** Click on any **Contact** record and you'll the a custom crm card on the right side. </br></br>
+**2.9.** Click on any **Contact** record and you'll see the custom CRM card on the right side. </br></br>
 
 <img width="366" alt="Screenshot 2022-07-28 at 11 12 29" src="https://user-images.githubusercontent.com/15332386/181576081-68dbd233-b691-4df1-87c8-5c8bcbcad329.png">
 
@@ -144,7 +144,7 @@ exports.main = async (context = {}, sendResponse) => {
   }
 };
 ```
-**3.4.**  Save all the changes (make sure to click on **Save All**) and run `hs project upload`. </br></br>
+**3.4.**  Save all the changes *-make sure to click on Save All-* and run `hs project upload`. </br></br>
 **3.5.**  Go back to the **Contact** record in your portal and click on the **Custom** tab. </br></br>
 
 <img width="1079" alt="Screenshot 2022-07-28 at 11 35 50" src="https://user-images.githubusercontent.com/15332386/181576724-0f9e300b-561e-42bb-8a1a-9a1cdf88f3df.png">
@@ -179,5 +179,5 @@ exports.main = async (context = {}, sendResponse) => {
 
 <img width="637" alt="Screenshot 2022-07-28 at 16 29 07" src="https://user-images.githubusercontent.com/15332386/181577671-29a099b1-73b1-4b83-ab57-323c5b58f69e.png">
 
-**4.6.** Save all the changes (make sure to click on **Save All**) and run `hs project upload`. 
+**4.6.** Save all the changes *-make sure to click on Save All-* and run `hs project upload`. 
 
