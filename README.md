@@ -17,13 +17,14 @@ Help sales rep to easily get access to additional data insights about deals on a
 - In the terminal navigate to the directory where you'll be working
 - Run the command `hs init`
 - Press **Enter** to open the personal access key page in your browser.
-<Image>
-- Select the **account** that you want to deploy to, then click **Continue** with this account. You’ll then be redirected to the personal access key page of the account.
-- Make sure to select the sandbox option
-- Click **Show** to reveal your key. Then click Copy to copy it to your clipboard. 
+- Select the **account** that you want to deploy to, then click **Continue** with this account. You’ll then be redirected to the personal access key page of the account. **INSERT_IMAGE**
+- Make sure to select the sandbox option **INSERT_IMAGE**
+- Click **Show** to reveal your key. Then click Copy to copy it to your clipboard. **INSERT_IMAGE**
 - Paste the copied key into terminal, then press **Enter**.
-- Enter a unique name for the account, which is only used when running CLI commands. Then, press Enter.
- <Image>
+- Enter a unique name for the account, which is only used when running CLI commands. Then, press Enter. **INSERT_IMAGE**
   
-## 2) Create 
+## 2) Create a Local Project
+
+- Create a folder like "MyProjects" and navigate to it in the terminal.
+- In the terminal run `hs project create`
 
