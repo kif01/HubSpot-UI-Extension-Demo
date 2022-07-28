@@ -13,25 +13,25 @@ Help sales rep to easily get access to additional data insights about deals on a
 ## 1) Prerequisite - Setup Local Environment
 
 1.1) Install Node.js which enables HubSpot’s local development tools </br>
-1.2 Install any code editor like Visual Studio </br>
-1.3 Install the HubSpot CLI by running `npm install -g @hubspot/cli@next` in the terminal </br>
-1.4 In the terminal navigate to the directory where you'll be working </br>
-1.5 Run the command `hs init` </br>
-1.6 Press **Enter** to open the personal access key page in your browser. </br>
+1.2) Install any code editor like Visual Studio </br>
+1.3) Install the HubSpot CLI by running `npm install -g @hubspot/cli@next` in the terminal </br>
+1.4) In the terminal navigate to the directory where you'll be working </br>
+1.5) Run the command `hs init` </br>
+1.6) Press **Enter** to open the personal access key page in your browser. </br>
 
 <img width="563" alt="Screenshot 2022-07-28 at 10 14 03" src="https://user-images.githubusercontent.com/15332386/181572390-12deaa7e-0885-4597-a2df-b072203f2b7b.png">
 
-1.7 Select the **account** that you want to deploy to, then click **Continue** with this account. You’ll then be redirected to the personal access key page of the account. </br>
-1.8 Make sure to select the **sandbox** option. </br>
+1.7) Select the **account** that you want to deploy to, then click **Continue** with this account. You’ll then be redirected to the personal access key page of the account. </br>
+1.8) Make sure to select the **sandbox** option. </br>
 
 <img width="1438" alt="Screenshot 2022-07-28 at 10 30 16" src="https://user-images.githubusercontent.com/15332386/181570839-888a1d61-6b20-4dc9-9985-d23fa55714a4.png">
 
-1.9 Click **Show** to reveal your key. Then click Copy to copy it to your clipboard. </br>
+1.9) Click **Show** to reveal your key. Then click Copy to copy it to your clipboard. </br>
 
 <img width="1440" alt="Screenshot 2022-07-28 at 10 42 46" src="https://user-images.githubusercontent.com/15332386/181571676-f1a5093b-9c18-4f51-8728-8da02f3cf44b.png">
 
-1.10 Paste the copied key into terminal, then press **Enter**. </br>
-1.11 Enter a unique name for the account, which is only used when running CLI commands. Then, press Enter. </br>
+1.10) Paste the copied key into terminal, then press **Enter**. </br>
+1.11) Enter a unique name for the account, which is only used when running CLI commands. Then, press Enter. </br>
 
 <img width="1435" alt="Screenshot 2022-07-28 at 10 44 30" src="https://user-images.githubusercontent.com/15332386/181572787-e4b0da50-7757-4b6b-bc4f-2df31472b8ef.png">
 
