@@ -46,5 +46,8 @@ Help sales rep to easily get access to additional data insights about deals on a
               "file": "./crm-card.json",
               "version": 2
             }
-        ]```
+        ]
+     }
+   }
+```   
 
