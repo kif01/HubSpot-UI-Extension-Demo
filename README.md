@@ -49,5 +49,103 @@ Help sales rep to easily get access to additional data insights about deals on a
         ]
      }
    }
-```   
+```
+
+- Go to **crm-card.json** file and replace the code with the following:
+
+```javascript
+// crm-card.json
+{
+  "type": "crm-card",
+  "version": 2,
+  "data": {
+    "title": "Loom CRM Card",
+    "fetch": {
+      "targetFunction": "crm-card",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": [], 
+          "actions":[]
+        }
+      ]
+    },
+    "display": {
+      "properties": []
+    },
+    "actions": {
+      "baseUrls": []
+    }
+  }
+}
+```
+- Go to **crm-card.js** and replace the code with the followng:
+```javascript
+// crm-card.js
+const axios = require("axios");
+
+exports.main = async (context = {}, sendResponse) => {
+
+  try {
+    const { data } = await axios.get("https://zenquotes.io/api/random");
+    sendResponse({
+      sections: [
+        {
+          "type": "text",
+          "format": "markdown",
+          "text": "[Inspirational quotes provided by ZenQuotes API](https://zenquotes.io)" 
+        },
+        {
+          "type": "text",
+          "format": "markdown",
+          "text": `**Quote**: ${data[0].q}` 
+        },
+        {
+          "type": "text",
+          "format": "markdown",
+          "text": `**Author**: ${data[0].a}`
+        },
+        {
+          "type": "button",
+          "text": "Get Inspired",
+          "onClick": {
+            "type": "SERVERLESS_ACTION_HOOK",
+             "serverlessFunction": "crm-card"
+          } 
+        },
+    ],
+    });
+  } catch (error) {
+    throw new Error(`There was an error fetching the quote': ${error.message}`);
+  }
+};
+```
+- Save all the changes (Make sure to click on **Save All**) and run `hs project upload`
+- Go back to the **Contact** record in your portal and click on the **Custom** tab **INSERT_IMAGE**
+
+## 4) Create a More Advanced Custom CRM Card
+- Go to  **app.json** and add `"crm.objects.deals.read"` and `"crm.objects.deals.write"` in `scopes` (for this example we will mainly be focusing on the deal object but feel free to and any additional scopes). You can copy & paste the **app.json** file that exist in this repo.
+```javascript
+"scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "crm.objects.deals.read",
+    "crm.objects.deals.write",
+  ]
+```
+- Go to **crm-card.json** and add `hs_object_id` in `propertiesToSend` under `objectTypes`. This would make the content of our CRM card dynamic: every time we click on a contact record the crm card will get its ID so we can use it later on in API requests to fetch deals for this coressponding contact. You can copy & paste the **crm-card.json** file that exist in this repo.
+```javascript
+"objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": ["hs_object_id"],
+          "actions":[]
+        }
+      ]
+```
+
+- Grab the code from this **crm-card.js** in this repo and paste it in your **crm-card.js**. 
+- Go to: HubSpot Account > Developer Tab > Private Apps and click on **View access token** to get the token of this private app. **INSERT_IMAGE**
+- Paste the token in the code where it says `"INSERT TOKEN"`
+- Save all the changes (Make sure to click on **Save All**) and run `hs project upload`. 
 
