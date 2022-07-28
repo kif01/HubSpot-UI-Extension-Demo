@@ -10,14 +10,14 @@ Help sales rep to easily get access to additional data insights about deals on a
 
 # Tutorial
 
-## 1) Prerequisite - Setup Local Environment
+## 1. Prerequisite - Setup Local Environment
 
-**1.1)** Install Node.js which enables HubSpot’s local development tools </br></br>
-**1.2)** Install any code editor like Visual Studio </br></br>
-**1.3)** Install the HubSpot CLI by running `npm install -g @hubspot/cli@next` in the terminal </br></br>
-**1.4)** In the terminal navigate to the directory where you'll be working </br></br>
-**1.5)** Run the command `hs init` </br></br>
-**1.6)** Press **Enter** to open the personal access key page in your browser. </br></br>
+**1.1.** Install Node.js which enables HubSpot’s local development tools </br></br>
+**1.2.** Install any code editor like Visual Studio </br></br>
+**1.3.** Install the HubSpot CLI by running `npm install -g @hubspot/cli@next` in the terminal </br></br>
+**1.4.** In the terminal navigate to the directory where you'll be working </br></br>
+**1.5.** Run the command `hs init` </br></br>
+**1.6.** Press **Enter** to open the personal access key page in your browser. </br></br>
 
 <img width="563" alt="Screenshot 2022-07-28 at 10 14 03" src="https://user-images.githubusercontent.com/15332386/181572390-12deaa7e-0885-4597-a2df-b072203f2b7b.png">
 
