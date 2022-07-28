@@ -13,6 +13,7 @@ Help sales rep to easily get access to additional data insights about deals on a
 ## 1) Prerequisite - Setup Local Environment
 
 - Install Node.js which enables HubSpot’s local development tools
+- Install any code editor like Visual Studio
 - Install the HubSpot CLI by running `npm install -g @hubspot/cli@next` in the terminal
 - In the terminal navigate to the directory where you'll be working
 - Run the command `hs init`
@@ -23,8 +24,27 @@ Help sales rep to easily get access to additional data insights about deals on a
 - Paste the copied key into terminal, then press **Enter**.
 - Enter a unique name for the account, which is only used when running CLI commands. Then, press Enter. **INSERT_IMAGE**
   
-## 2) Create a Local Project
-
+## 2) Create and Upload a Local Project
+- Make sure you are in the environment in which you ran the `hs init command` during the previous phase
 - Create a folder like "MyProjects" and navigate to it in the terminal.
 - In the terminal run `hs project create`
+- Enter a **name** for the project, then press **Enter**
+- Set the location for the project: Leave it as it, the default one so just press **Enter**
+- Select whether to start the project from scratch or from the Getting Started template. **INSERT_IMAGE**
+- In the terminal, run `hs project upload` **INSERT_IMAGE**
+- Go to: HubSpot Account > Developer Tab > Private Apps. You'll the see app there. **INSERT_IMAGE**
+- Click on any **Contact** record and you'll the a custom crm card on the right side **INSERT_IMAGE**
+
+## 3) Convert CRM card to Custom Tab Card
+### Update Card Configuration
+- Go to **app.json** file and include `"version":2`
+```javascript
+"extensions": {
+    "crm": {
+        "cards": [
+            {
+              "file": "./crm-card.json",
+              "version": 2
+            }
+        ]```
 
