@@ -144,8 +144,8 @@ exports.main = async (context = {}, sendResponse) => {
       ]
 ```
 
-- Grab the code from this **crm-card.js** in this repo and paste it in your **crm-card.js**. 
+- Grab the code from this [crm-card.js](https://github.com/kif01/HubSpot-UI-Extension-Demo/blob/main/src/app/app.functions/crm-card.js) in this repo and paste it in your **crm-card.js**. 
 - Go to: HubSpot Account > Developer Tab > Private Apps and click on **View access token** to get the token of this private app. **INSERT_IMAGE**
 - Paste the token in the code where it says `"INSERT TOKEN"`
-- Save all the changes (Make sure to click on **Save All**) and run `hs project upload`. 
+- Save all the changes (make sure to click on **Save All**) and run `hs project upload`. 
 
