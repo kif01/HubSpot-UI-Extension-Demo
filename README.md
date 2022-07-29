@@ -149,7 +149,7 @@ exports.main = async (context = {}, sendResponse) => {
 <img width="1079" alt="Screenshot 2022-07-28 at 11 35 50" src="https://user-images.githubusercontent.com/15332386/181576724-0f9e300b-561e-42bb-8a1a-9a1cdf88f3df.png">
 
 ### 4. Create a More Advanced Custom CRM Card
-**4.1.**  Go to  **app.json** and add `"crm.objects.deals.read"` and `"crm.objects.deals.write"` in `scopes` (for this example we will mainly be focusing on the deal object but feel free to and any additional scopes). You can copy & paste the [app.json](https://github.com/kif01/HubSpot-UI-Extension-Demo/blob/main/src/app/app.json) file that exist in this repo.
+**4.1.**  Go to  **app.json** and add `"crm.objects.deals.read"` and `"crm.objects.deals.write"` in `scopes` (for this example we will mainly be focusing on the deal object but feel free to and any additional scopes). You can copy & paste the [app.json](https://github.com/kif01/HubSpot-UI-Extension-Demo/blob/main/src/app/app.json) file that exists in this repo.
 ```javascript
 "scopes": [
     "crm.objects.contacts.read",
@@ -158,7 +158,7 @@ exports.main = async (context = {}, sendResponse) => {
     "crm.objects.deals.write",
   ]
 ```
-**4.2.** Go to **crm-card.json** and add `hs_object_id` in `propertiesToSend` under `objectTypes`. This would make the content of our CRM card dynamic: every time we click on a contact record the crm card will get its ID so we can use it later on in API requests to fetch deals for this coressponding contact. You can copy & paste the [crm-card.json](https://github.com/kif01/HubSpot-UI-Extension-Demo/blob/main/src/app/crm-card.json) file that exist in this repo.
+**4.2.** Go to **crm-card.json** and add `hs_object_id` in `propertiesToSend` under `objectTypes`. This would make the content of our CRM card dynamic: every time we click on a contact record the crm card will get its ID so we can use it later on in API requests to fetch deals for this coressponding contact. You can copy & paste the [crm-card.json](https://github.com/kif01/HubSpot-UI-Extension-Demo/blob/main/src/app/crm-card.json) file that exists in this repo.
 ```javascript
 "objectTypes": [
         {
