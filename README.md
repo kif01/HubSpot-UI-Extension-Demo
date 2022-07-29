@@ -181,3 +181,14 @@ exports.main = async (context = {}, sendResponse) => {
 
 **4.6.** Save all the changes *-make sure to click on Save All-* and run `hs project upload`. 
 
+## Additional Resources
+- [Projects overview](https://developers.hubspot.com/docs/platform/build-and-deploy-using-hubspot-projects)
+- [Projects setup guide](https://developers.hubspot.com/docs/platform/developer-projects-setup)
+- [Projects quickstart guide](https://developers.hubspot.com/docs/platform/projects-quick-start-guide)
+- [Create private apps with projects](https://developers.hubspot.com/docs/platform/create-private-apps-with-projects)
+- [Include serverless functions with projects](https://developers.hubspot.com/docs/platform/serverless-functions)
+- [Create custom automation actions with projects](https://developers.hubspot.com/docs/platform/custom-automation-actions-projects)
+- [Include asset definition files in a project](https://developers.hubspot.com/docs/platform/include-asset-definition-files-in-projects)
+- [CLI reference guide for projects](https://developers.hubspot.com/docs/platform/project-cli-commands)
+
+
