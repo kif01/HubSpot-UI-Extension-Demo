@@ -14,7 +14,7 @@ exports.main = async (context = {}, sendResponse) => {
   const hubspotClient = new hubspot.Client({ accessToken: "<INSETRT TOKEN HERE>" });
 
   let deals = []
-  const contactId = "101";
+  //const contactId = "101";
   const toObjectType = "deal";
   const after = undefined;
   const limit = 500;
@@ -103,8 +103,8 @@ exports.main = async (context = {}, sendResponse) => {
           "items": [
 
             {
-              "label": "Closed Won Total Amount this year in $",
-              "number": `${totalClosedWonAmount}`,
+              "label": "Closed Won Total Amount this year",
+              "number": `$${totalClosedWonAmount}`,
               "description": {
                 "type": "trend",
                 "value": "23.36%",
