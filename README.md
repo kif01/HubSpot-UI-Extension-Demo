@@ -30,6 +30,7 @@ Help sales rep to easily get access to additional data insights about deals on a
 
 **1.10.** Paste the copied key into terminal, then press **Enter**. </br></br>
 **1.11.** Enter a unique name for the account, which is only used when running CLI commands. Then, press **Enter**. </br></br>
+**1.12.** Set this as your default account then press **Enter**. </br></br>
 
 <img width="1435" alt="Screenshot 2022-07-28 at 10 44 30" src="https://user-images.githubusercontent.com/15332386/181572787-e4b0da50-7757-4b6b-bc4f-2df31472b8ef.png">
 
