@@ -159,7 +159,7 @@ exports.main = async (context = {}, sendResponse) => {
     "crm.objects.deals.write",
   ]
 ```
-**4.2.** Go to **crm-card.json** and add `hs_object_id` in `propertiesToSend` under `objectTypes`. This would make the content of our CRM card dynamic: every time we click on a contact record the crm card will get its ID so we can use it later on in API requests to fetch deals for this coressponding contact. You can copy & paste the **crm-card.json** file that exist in this repo.
+**4.2.** Go to **crm-card.json** and add `hs_object_id` in `propertiesToSend` under `objectTypes`. This would make the content of our CRM card dynamic: every time we click on a contact record the crm card will get its ID so we can use it later on in API requests to fetch deals for this coressponding contact. You can copy & paste the [crm-card.json](https://github.com/kif01/HubSpot-UI-Extension-Demo/blob/main/src/app/crm-card.json) file that exist in this repo.
 ```javascript
 "objectTypes": [
         {
