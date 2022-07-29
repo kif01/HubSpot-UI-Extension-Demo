@@ -1,4 +1,4 @@
-# HubSpot CRM Card UI Extension Tutorial
+# HubSpot Custom CRM Card UI Extension Tutorial
  This is an example on using HubSpot CRM custom card feature to extend the UI using Serverless functionality.
  
 ## Use Case Example & Sample Output
