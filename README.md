@@ -1,16 +1,16 @@
 # HubSpot CRM Card UI Extension Tutorial
  This is an example on using HubSpot CRM custom card feature to extend the UI using Serverless functionality.
  
-# Use Case Example & Sample Output
+## Use Case Example & Sample Output
 Help sales rep to easily get access to additional data insights about deals on a specific record with the Serverless functionality, this use can be used for both B2C and B2B industries.
 
 <img width="1440" alt="Screenshot 2022-07-29 at 10 30 51" src="https://user-images.githubusercontent.com/15332386/181730203-9861933f-c2bf-44e2-a2c2-8d9aab86c700.png">
 
 <img width="1440" alt="Screenshot 2022-07-29 at 10 31 33" src="https://user-images.githubusercontent.com/15332386/181730274-057974f9-79c3-408f-9d20-1ca4464f8a0b.png">
 
-# Steps
+## Steps
 
-## 1. Prerequisite - Setup Local Environment
+### 1. Prerequisite - Setup Local Environment
 
 **1.1.** Install [Node.js](https://nodejs.org/en/download/) which enables HubSpot’s local development tools. </br></br>
 **1.2.** Install any code editor like [Visual Studio](https://visualstudio.microsoft.com/vs/mac/). </br></br>
@@ -36,7 +36,7 @@ Help sales rep to easily get access to additional data insights about deals on a
 <img width="1435" alt="Screenshot 2022-07-28 at 10 44 30" src="https://user-images.githubusercontent.com/15332386/181572787-e4b0da50-7757-4b6b-bc4f-2df31472b8ef.png">
 
   
-## 2) Create and Upload a Local Project
+### 2) Create and Upload a Local Project
 **2.1.** Make sure you are in the environment in which you ran the `hs init command` during the previous phase. </br></br>
 **2.2.** Create a folder like "MyProjects" and navigate to it in the terminal. </br></br>
 **2.3.** In the terminal run `hs project create`. </br></br>
@@ -58,8 +58,8 @@ Help sales rep to easily get access to additional data insights about deals on a
 
 <img width="366" alt="Screenshot 2022-07-28 at 11 12 29" src="https://user-images.githubusercontent.com/15332386/181576081-68dbd233-b691-4df1-87c8-5c8bcbcad329.png">
 
-## 3) Convert CRM card to Custom Tab Card
-### Update Card Configuration
+### 3) Convert CRM card to Custom Tab Card
+#### Update Card Configuration
 **3.1.** Go to **app.json** file and include `"version":2`.
 ```javascript
 "extensions": {
@@ -102,7 +102,7 @@ Help sales rep to easily get access to additional data insights about deals on a
   }
 }
 ```
-### Update CRM Card Function
+#### Update CRM Card Function
 **3.3.**  Go to **crm-card.js** and replace the code with the followng:
 ```javascript
 // crm-card.js
@@ -149,7 +149,7 @@ exports.main = async (context = {}, sendResponse) => {
 
 <img width="1079" alt="Screenshot 2022-07-28 at 11 35 50" src="https://user-images.githubusercontent.com/15332386/181576724-0f9e300b-561e-42bb-8a1a-9a1cdf88f3df.png">
 
-## 4) Create a More Advanced Custom CRM Card
+### 4) Create a More Advanced Custom CRM Card
 **4.1.**  Go to  **app.json** and add `"crm.objects.deals.read"` and `"crm.objects.deals.write"` in `scopes` (for this example we will mainly be focusing on the deal object but feel free to and any additional scopes). You can copy & paste the [app.json](https://github.com/kif01/HubSpot-UI-Extension-Demo/blob/main/src/app/app.json) file that exist in this repo.
 ```javascript
 "scopes": [
