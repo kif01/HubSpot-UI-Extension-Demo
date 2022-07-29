@@ -40,7 +40,7 @@ Help sales rep to easily get access to additional data insights about deals on a
 **2.3.** In the terminal run `hs project create`. </br></br>
 **2.4.** Enter a **name** for the project, then press **Enter**. </br></br>
 **2.5.** Set the location for the project: Leave it as it is, the default one so just press **Enter**. </br></br>
-**2.6.** Select whether to start the project from scratch or from the **Getting Started** template. </br></br>
+**2.6.** Select to start the project from the **Getting Started** template. </br></br>
 
 <img width="742" alt="Screenshot 2022-07-28 at 11 08 42" src="https://user-images.githubusercontent.com/15332386/181574115-96e9152b-1d6a-4d23-870f-fa0e5a5ff793.png">
 
