@@ -2,7 +2,7 @@
  This is an example on using HubSpot CRM custom card feature to extend the UI using Serverless functionality.
  
 ## Use Case Example & Sample Output
-Help sales rep to easily get access to additional data insights about deals on a specific record with the Serverless functionality. This use case can be for both B2C and B2B industries in which reps can get insights like annual revenue for a specific record, number of currently on going deals, number of closed deals...etc. This turotial starts by using the default boilerplate that HubSpot provides so we can then customize it to fit the needs of this use case.
+Help sales rep to easily get access to additional data insights about deals on a specific record with the Serverless functionality. This use case can be for both B2C and B2B industries in which reps can get insights like annual revenue for a specific record, number of currently on going deals, number of closed deals...etc. This tutorial starts by using the default boilerplate that HubSpot provides so we can then customize it to fit the needs of this use case.
 
 <img width="1440" alt="Screenshot 2022-07-29 at 10 30 51" src="https://user-images.githubusercontent.com/15332386/181730203-9861933f-c2bf-44e2-a2c2-8d9aab86c700.png">
 
