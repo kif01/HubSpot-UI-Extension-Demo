@@ -1,4 +1,4 @@
-# HubSpot-UI-Extension-Demo
+# HubSpot CRM Card UI Extension Tutorial
  This is an example on using HubSpot CRM custom card feature to extend the UI using Serverless functionality.
  
 # Use Case Example & Sample Output
@@ -8,7 +8,7 @@ Help sales rep to easily get access to additional data insights about deals on a
 
 <img width="1440" alt="Screenshot 2022-07-29 at 10 31 33" src="https://user-images.githubusercontent.com/15332386/181730274-057974f9-79c3-408f-9d20-1ca4464f8a0b.png">
 
-# Tutorial
+# Steps
 
 ## 1. Prerequisite - Setup Local Environment
 
@@ -150,7 +150,7 @@ exports.main = async (context = {}, sendResponse) => {
 <img width="1079" alt="Screenshot 2022-07-28 at 11 35 50" src="https://user-images.githubusercontent.com/15332386/181576724-0f9e300b-561e-42bb-8a1a-9a1cdf88f3df.png">
 
 ## 4) Create a More Advanced Custom CRM Card
-**4.1.**  Go to  **app.json** and add `"crm.objects.deals.read"` and `"crm.objects.deals.write"` in `scopes` (for this example we will mainly be focusing on the deal object but feel free to and any additional scopes). You can copy & paste the **app.json** file that exist in this repo.
+**4.1.**  Go to  **app.json** and add `"crm.objects.deals.read"` and `"crm.objects.deals.write"` in `scopes` (for this example we will mainly be focusing on the deal object but feel free to and any additional scopes). You can copy & paste the [app.json](https://github.com/kif01/HubSpot-UI-Extension-Demo/blob/main/src/app/app.json) file that exist in this repo.
 ```javascript
 "scopes": [
     "crm.objects.contacts.read",
@@ -175,7 +175,7 @@ exports.main = async (context = {}, sendResponse) => {
 
 <img width="1440" alt="Screenshot 2022-07-28 at 13 43 18" src="https://user-images.githubusercontent.com/15332386/181576920-ffe59ea2-f2e8-4b3a-bd11-1bb69952af32.png">
 
-**4.5.** Paste the token in the code where it says `"INSERT TOKEN"`. </br></br>
+**4.5.** Paste the token in the code where it says `"INSERT TOKEN HERE"`. </br></br>
 
 <img width="637" alt="Screenshot 2022-07-28 at 16 29 07" src="https://user-images.githubusercontent.com/15332386/181577671-29a099b1-73b1-4b83-ab57-323c5b58f69e.png">
 
