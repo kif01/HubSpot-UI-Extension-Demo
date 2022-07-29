@@ -168,7 +168,7 @@ exports.main = async (context = {}, sendResponse) => {
       ]
 ```
 
-**4.3.** Grab the code from this [crm-card.js](https://github.com/kif01/HubSpot-UI-Extension-Demo/blob/main/src/app/app.functions/crm-card.js) in this repo and paste it in your **crm-card.js**. Basically this code gets the number of closed deals of a specific contact, calculates the amount of closed deals, gets the number of ongoing deals and displays them on the card. In addition it has a label that changes  dynamically based on the closed deals amount. For example if this amount is above a specific threshold then it shows that this is a **High Value Customer** label and displays the VIP image.  </br></br>
+**4.3.** Grab the code from this [crm-card.js](https://github.com/kif01/HubSpot-UI-Extension-Demo/blob/main/src/app/app.functions/crm-card.js) in this repo and paste it in your **crm-card.js**. Basically this code gets the number of closed deals of a specific contact, calculates the amount of closed deals, gets the number of ongoing deals and displays them on the card. In addition it has a label that changes  dynamically based on the closed deals amount. For example if this amount is above a specific value then it shows that this is a **High Value Customer** label and displays the **VIP** image.  </br></br>
 **4.4.** Go to: HubSpot Account > Developer Tab > Private Apps and click on **View access token** to get the token of this private app. </br></br>
 
 <img width="1440" alt="Screenshot 2022-07-28 at 13 43 18" src="https://user-images.githubusercontent.com/15332386/181576920-ffe59ea2-f2e8-4b3a-bd11-1bb69952af32.png">
